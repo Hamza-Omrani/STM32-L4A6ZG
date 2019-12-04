@@ -1,0 +1,18 @@
+
+        ___________________________________________________________________________________________________________________________________
+		Version |    RTOS    | UART Mode|  Timer    | Timer printed |  Release Date |  Comment 
+		___________________________________________________________________________________________________________________________________
+		V0.0    | no thread  |   DMA    | disabled  |	Decimal     |  29/10/2019   | 
+		V0.1  	| no thread  |   IT 	| enabled   |	Decimal     |  30/10/2019   |
+		V0.2  	| one thread |   IT     | enabled   |	Decimal		|  30/10/2019   |
+		V0.3  	| no thread  |   DMA 	| disabled  |	Decimal		|  30/10/2019   | (half and complete callback) 
+		V0.4  	| one task   |   IT 	| enabled   |	Decimal		|  05/11/2019   |
+		V0.5  	| one task   |   IT 	| disabled  |	Decimal		|  05/11/2019   |
+		V0.6  	| one task   |   IT 	| disabled  |	Decimal		|  01/11/2019   |
+		V0.7  	| one task   |   IT 	| disabled  |	ASCII		|  05/11/2019   | byte-queue-task-no periodicity
+		V0.8  	| one task   |   IT 	| enabled   |	ASCII		|  07/11/2019   | queue : process one octet every 300 ms
+		V0.9  	| one task   |   IT 	| enabled   |	ASCII		|  11/11/2019   | queue : process all queue elements every task period 
+		V1.0 	| one task   |   DMA 	| enabled   |	ASCII		|  12/11/2019   | receive 20 octets : half & complete callback (no Semphore)
+		V1.1  	| one task   |   DMA 	| enabled   |	ASCII		|  12/11/2019   | receive 2 octets : half & complete callback (no Semphore)
+		V1.2  	| one task   |   DMA 	| enabled   |	ASCII		|  12/11/2019   | receive 2 octets : half & complete callback using Semaphore
+		V1.3  	| one task   |   DMA 	| enabled   |	ASCII		|  12/11/2019   | receive 20 octets : half & complete callback using Semaphore
