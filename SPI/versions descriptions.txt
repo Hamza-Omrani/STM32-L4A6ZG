@@ -1,6 +1,0 @@
-
-                ___________________________________________________________________________________________________________________________
-		Version |    Master  |   Slave   |  bidirection    |   Release Date |  Comment 
-		___________________________________________________________________________________________________________________________
-		V0.0    | Discovery  |  Nucleo   |  No(one way)    |   21/10/2019   | transmit from master + receive from slave  
-		V0.1  	| Discovery  |  Nucleo 	 |   Two Ways      |   21/11/2019   | TransmitReceive From and out of two boards 
